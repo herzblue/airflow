@@ -6,8 +6,10 @@ authors = ["herzblue <herzblue@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "3.11.9"
 # pip install "apache-airflow[celery]==2.10.5" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.10.5/constraints-3.8.txt"
+pendulum = "^3.0.0"
+
 
 [build-system]
 requires = ["poetry-core"]
