@@ -6,7 +6,7 @@ from airflow.operators.python import PythonOperator
 from common.common_func import get_sftp
 
 with DAG(
-    dag_id = 'dags_python_operator',
+    dag_id = 'dags_python_import_func',
     schedule = '30 6 * * *', # 매일 06시 30분
     start_date = pendulum.datetime(2023, 3, 1, tz = 'Asia/Seoul'),
     catchup = False
